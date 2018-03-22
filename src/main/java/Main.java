@@ -1,6 +1,10 @@
+import org.activiti.engine.ProcessEngine;
+import org.activiti.engine.ProcessEngines;
+
 public class Main {
 
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+        ProcessEngine engine = ProcessEngines.getDefaultProcessEngine();
+        System.out.println(engine);
     }
 }
