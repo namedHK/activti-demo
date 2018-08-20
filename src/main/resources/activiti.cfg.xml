@@ -7,10 +7,10 @@
     <bean id="processEngineConfiguration"
           class="org.activiti.engine.impl.cfg.StandaloneInMemProcessEngineConfiguration">
 
-        <property name="jdbcUrl" value="jdbc:mysql://localhost:3306/act"/>
+        <property name="jdbcUrl" value="jdbc:mysql://192.168.10.172:3306/act"/>
         <property name="jdbcDriver" value="com.mysql.jdbc.Driver"/>
-        <property name="jdbcUsername" value="root"/>
-        <property name="jdbcPassword" value="root"/>
+        <property name="jdbcUsername" value="act"/>
+        <property name="jdbcPassword" value="act"/>
 
         <!-- Database configurations -->
         <property name="databaseSchemaUpdate" value="true"/>
